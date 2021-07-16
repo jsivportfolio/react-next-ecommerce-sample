@@ -1,0 +1,32 @@
+.modal__body {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
+.modal__CheckoutButton {
+    background: #057BFF;
+    color: white;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 1.5em;
+    padding: .5em;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .1s;
+    width: 7.5rem;
+    height: 2.5rem;
+}
+
+.modal__CheckoutButton:hover {
+  opacity: .8;
+  transition: opacity .1s;
+}
